@@ -12,9 +12,10 @@ neofetch
 # alias for commands
 alias ls="ls -a"
 alias cl="clear"
-alias std="shutdown now"
+alias off="shutdown now"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/dotfiles.git --work-tree=$HOME'
-
+alias pacman='sudo pacman'
+alias ra='ranger'
 # alias for execs	
 alias vim="nvim" 
 alias btop="btop --utf-force"

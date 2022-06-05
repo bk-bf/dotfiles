@@ -159,3 +159,11 @@ Use --utf-force argument to force start if you're sure your terminal can handle 
 2022/06/05 (02:08:41) | ===> btop++ v.1.2.7
 2022/06/05 (02:08:41) | WARNING: No UTF-8 locale detected! Forcing start with --utf-force argument.
 2022/06/05 (02:08:41) | ERROR: Invalid hex value: #ba1643
+
+2022/06/05 (03:35:50) | ===> btop++ v.1.2.7
+2022/06/05 (03:35:50) | WARNING: No UTF-8 locale detected! Forcing start with --utf-force argument.
+2022/06/05 (03:35:50) | ERROR: Invalid hex value: #ba1643
+
+2022/06/05 (16:22:35) | ===> btop++ v.1.2.7
+2022/06/05 (16:22:35) | WARNING: No UTF-8 locale detected! Forcing start with --utf-force argument.
+2022/06/05 (16:22:35) | ERROR: Invalid hex value: #ba1643

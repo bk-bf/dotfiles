@@ -129,6 +129,7 @@ bindsym $mod+space floating toggle
 # enable floating mode for certain windows
 for_window [class="slickpicker"] floating enable
 for_window [class="dde-printer"] floating enable 
+for_window [class="feh"] floating enable
 # change focus between tiling / floating windows
 bindsym $mod+Shift+space focus mode_toggle
 
@@ -177,9 +178,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Assign Programs to specific Workspaces 
 assign [class="firefox"] 2
-assign  [class="YouTube Music"] 3
+assign [class="YouTube Music"] 3
 assign [class="discord"] 5
-
+assign [class="Lxappearance"] 4
 for_window [class="^.*"] border pixel 0
 bindsym $mod+Shift+f [floating] exec i3-msg border pixel 1
 bindsym $mod+g gaps inner all set 0;gaps outer all set 4	
