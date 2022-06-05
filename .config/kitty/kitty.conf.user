@@ -1,0 +1,22 @@
+# BEGIN_KITTY_THEME
+# Aquarium Dark
+include current-theme.conf
+# END_KITTY_THEME
+
+# shortcuts
+copy_on_select  yes
+
+map ctrl+c      copy_to_clipboard
+map ctrl+v      paste_from_clipboard
+map shift+insert        paste_from_clipboard
+
+# fonts config
+font_family      Source Code Pro
+bold_font        Source Code Pro Bold
+italic_font      Source Code Pro Italic
+bold_italic_font Source Code Pro Bold Italic
+
+font_family	 MesloLGS NF
+
+# cursor settings
+cursor_shape beam 
