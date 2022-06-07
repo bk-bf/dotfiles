@@ -181,7 +181,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 assign [class="firefox"] 2
 assign [class="YouTube Music"] 3
 assign [class="discord"] 5
-assign [class="Lxappearance"] 4
+
 for_window [class="^.*"] border pixel 0
 bindsym $mod+Shift+f [floating] exec i3-msg border pixel 1
 bindsym $mod+g gaps inner all set 0;gaps outer all set 4	
@@ -193,7 +193,7 @@ bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 # exec on reloade
-exec_always feh --bg-scale /home/kirill/Pictures/wallhaven-wqgq7p.jpg
+exec_always feh --bg-scale ~/Pictures/wallhaven-wqgq7p.jpg
 
 #shortcuts
 bindsym $mod+b exec firefox
@@ -263,7 +263,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always unclutter &
 
 # bindings for custom scripts
-bindsym $mod+s exec /usr/bin/scripts/i3-display-swap.sh 
+bindsym $mod+s exec ~/.config/i3/i3-diplay-swap.sh
 
 # discord autostart 
 exec --no-startup-id discord & 
