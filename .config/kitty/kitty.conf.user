@@ -1,0 +1,14 @@
+# BEGIN_KITTY_THEME
+# Aquarium Dark
+include current-theme.conf
+# END_KITTY_THEME
+
+# shortcuts
+copy_on_select  yes
+
+map ctrl+c      copy_to_clipboard
+map ctrl+v      paste_from_clipboard
+map shift+insert        paste_from_clipboard
+
+# cursor settings
+cursor_shape beam 
